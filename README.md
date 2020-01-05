@@ -11,6 +11,7 @@ browser based on CEF
  1. build solution in MSVC. (Ctrl + Shift + B)
  2. copy files for CEF into the build output directory.
     - copy the same configuration as the output.
+        - Debug & Release : copy all files in `thirdparty\cef\x86\Resources`
         - Debug : copy all files in `thirdparty\cef\x86\Debug`
         - Release : copy all files in `thirdparty\cef\x86\Release`
         - you don't have to copy `.lib` files in the directory, as you know.
